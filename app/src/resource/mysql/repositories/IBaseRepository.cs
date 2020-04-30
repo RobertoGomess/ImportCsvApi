@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace ImportCsv.app.resource.mysql.repositories
+namespace App.src.resource.mysql.repositories
 {
     public interface IBaseRepository<T>
     {

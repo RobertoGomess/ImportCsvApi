@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using AutoMapper;
 using CsvHelper;
-using ImportCsv.app.resource.mysql.repositories;
+using App.src.resource.mysql.repositories;
 
-namespace ImportCsv.app.commands
+namespace App.src.commands
 {
     public abstract class ReadCsvAbstract <C,M> : IReadCsvAbstract<C>
     {

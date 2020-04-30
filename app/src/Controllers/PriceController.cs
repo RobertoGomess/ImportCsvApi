@@ -1,10 +1,10 @@
 using System.Collections.Generic;
-using ImportCsv.app.commands.price;
-using ImportCsv.app.domains;
+using App.src.commands.price;
+using App.src.domains;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace ImportCsv.app.Controllers
+namespace App.src.Controllers
 {
     [Route("api/[controller]")]
     public class PriceController

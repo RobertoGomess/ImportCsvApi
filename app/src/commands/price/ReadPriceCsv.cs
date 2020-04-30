@@ -1,10 +1,10 @@
 using AutoMapper;
-using ImportCsv.app.domains;
-using ImportCsv.app.resource.mysql.models;
-using ImportCsv.app.resource.mysql.repositories;
+using App.src.domains;
+using App.src.resource.mysql.models;
+using App.src.resource.mysql.repositories;
 using Microsoft.Extensions.Configuration;
 
-namespace ImportCsv.app.commands.price
+namespace App.src.commands.price
 {
     public class ReadPriceCsv : ReadCsvAbstract<PriceDtc, Price>, IReadPriceCsv<PriceDtc>
     {

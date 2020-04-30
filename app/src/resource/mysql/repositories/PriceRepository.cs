@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using ImportCsv.app.resource.mysql.models;
+using App.src.resource.mysql.models;
 
-namespace ImportCsv.app.resource.mysql.repositories
+namespace App.src.resource.mysql.repositories
 {
     public class PriceRepository : IPriceRepository<Price>, IDisposable
     {

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace ImportCsv.app.commands
+namespace App.src.commands
 {
     public interface IReadCsvAbstract<C>
     {

@@ -1,10 +1,10 @@
 using AutoMapper;
-using ImportCsv.app.commands;
-using ImportCsv.app.commands.price;
-using ImportCsv.app.domains;
-using ImportCsv.app.resource.mysql;
-using ImportCsv.app.resource.mysql.models;
-using ImportCsv.app.resource.mysql.repositories;
+using App.src.commands;
+using App.src.commands.price;
+using App.src.domains;
+using App.src.resource.mysql;
+using App.src.resource.mysql.models;
+using App.src.resource.mysql.repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -12,7 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
-namespace ImportCsv
+namespace App
 {
     public class Startup
     {

@@ -1,8 +1,8 @@
 using AutoMapper;
-using ImportCsv.app.domains;
-using ImportCsv.app.resource.mysql.models;
+using App.src.domains;
+using App.src.resource.mysql.models;
 
-namespace ImportCsv.app.Profiles
+namespace App.src.Profiles
 {
     public class PriceDtcProfile : Profile
     {

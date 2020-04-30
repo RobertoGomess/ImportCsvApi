@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ImportCsv.app.resource.mysql.models
+namespace App.src.resource.mysql.models
 {
     public class ModelBase
     {

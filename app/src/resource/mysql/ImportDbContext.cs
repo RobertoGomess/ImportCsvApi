@@ -1,9 +1,9 @@
 
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
-using ImportCsv.app.resource.mysql.models;
+using App.src.resource.mysql.models;
 
-namespace ImportCsv.app.resource.mysql
+namespace App.src.resource.mysql
 {
     public class ImportDbContext : DbContext
     {

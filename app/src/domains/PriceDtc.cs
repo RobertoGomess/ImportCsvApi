@@ -1,6 +1,6 @@
-namespace ImportCsv.app.resource.mysql.models
+namespace App.src.domains
 {
-    public class Price : ModelBase
+    public class PriceDtc
     {
         public string Name {get; set;}
         public string Description {get; set;}

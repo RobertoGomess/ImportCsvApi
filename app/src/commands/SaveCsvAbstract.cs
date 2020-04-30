@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
-using ImportCsv.app.resource.mysql.repositories;
+using App.src.resource.mysql.repositories;
 
-namespace ImportCsv.app.commands
+namespace App.src.commands
 {
     public abstract class SaveCsvAbstract <C,M> : ISaveCsvAbstract<C>
     {
