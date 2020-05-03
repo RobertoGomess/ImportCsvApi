@@ -25,5 +25,5 @@
     
 ## Run Tests##
 ```
-<root-project>$ cd dotnet test**
+<root-project>$ dotnet test**
 ```
