@@ -1,6 +1,6 @@
-﻿## Run API##
+﻿## Run API ##
 ```
-<root-project>$ cd ImportCsv.Api**
+<root-project>$ cd ImportCsv.Api
 ./ImportCsv.Api>$ docker-compose up
 ```
 ## Config GrayLog ##
@@ -25,5 +25,5 @@
     
 ## Run Tests##
 ```
-<root-project>$ dotnet test**
+<root-project>$ dotnet test
 ```
