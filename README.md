@@ -25,6 +25,5 @@
     
 ## Run Tests##
 ```
-<root-project>$ cd ImportCsv.Api**
-./ImportCsv.Api>$ docker-compose up
+<root-project>$ cd dotnet test**
 ```
